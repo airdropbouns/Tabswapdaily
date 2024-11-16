@@ -3,7 +3,7 @@
 // @name         TapswapTasks
 // @namespace    https://t.me/aksfl07
 // @version      3.0
-// @description  Tapswap Auto Task
+// @description  Tapswap Daily Task
 // @author       Airdropbouns daily Alert
 // @match        https://app.tapswap.club/*
 // @icon         https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/icon.jpeg
