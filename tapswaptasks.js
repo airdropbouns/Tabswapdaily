@@ -1,6 +1,6 @@
 
 // ==UserScript==
-// @name         TapswapTasks
+// @name         Tapswap Daily Tasks
 // @namespace    https://t.me/aksfl07
 // @version      3.0
 // @description  Tapswap Daily Task
