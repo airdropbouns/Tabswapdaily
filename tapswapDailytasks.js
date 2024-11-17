@@ -8,8 +8,8 @@
 // @match        https://app.tapswap.club/*
 // @icon         https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/icon.jpeg
 // @grant        None
-// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswaptasks.js
-// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswaptasks.js
+// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapDailytasks.js
+// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapDailytasks.js
 // @homepage     https://github.com/airdropbouns/Tabswapdaily/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
