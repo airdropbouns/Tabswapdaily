@@ -6,9 +6,9 @@
 // @author       Airdropbouns Daily alert
 // @match        *://*.tapswap.*/*
 // @grant        none
-// @icon         https://i.postimg.cc/7LJ24T7F/tapsw-aplogo.png
-// @downloadURL  https://github.com/airdropbouns/tapswapDailytasks/blob/main/tapswap-web.user.js
-// @updateURL    https://github.com/airdropbouns/tapswapDailytasks/blob/main/tapswap-web.user.js
+// @icon         https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/icon.jpeg
+// @downloadURL  https://github.com/airdropbouns/tapswapDailytasks/blob/main/telegram-web-app.js
+// @updateURL    https://github.com/airdropbouns/tapswapDailytasks/blob/main/telegram-web-app.js
 // @homepage     https://github.com/airdropbouns/Tabswapdaily
 // ==/UserScript==
 (function() {
