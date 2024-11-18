@@ -7,9 +7,9 @@
 // @match        *://*.tapswap.*/*
 // @grant        none
 // @icon         https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/icon.jpeg
-// @downloadURL  https://github.com/airdropbouns/tapswapDaily/blob/main/telegram-web-app.js
-// @updateURL    https://github.com/airdropbouns/tapswapDaily/blob/main/telegram-web-app.js
-// @homepage     https://github.com/airdropbouns/Tabswapdaily
+// @downloadURL  https://github.com/airdropbouns/tapswapDaily/refs/heads/main/telegram-web-app.js
+// @updateURL    https://github.com/airdropbouns/tapswapDaily/refs/heads/main/telegram-web-app.js
+// @homepage     https://github.com/airdropbouns/Tabswapdaily/
 // ==/UserScript==
 (function() {
     'use strict';
