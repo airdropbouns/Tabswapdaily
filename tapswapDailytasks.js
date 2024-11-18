@@ -1,18 +1,17 @@
 // ==UserScript==
-// @name         Tapswap Daily Tasks
+// @name         TapswapDailyTasks
 // @namespace    https://t.me/aksfl07
 // @version      4.0
 // @description  Tapswap Daily Task
 // @author       Airdropbouns daily Alert
 // @match        https://app.tapswap.club/*
-// @icon         https://github.com/airdropbouns/Tabswapdaily/blob/main/icon.jpeg
-// @grant        None
-// @downloadURL  https://github.com/airdropbouns/Tabswapdaily/blob/main/tapswapDailytasks.js
-// @updateURL    https://github.com/airdropbouns/Tabswapdaily/blob/main/tapswapDailytasks.js
+// @icon         https://github.com/airdropbouns/Tabswapdaily/main/icon.jpeg
+// @grant        GM_webRequest
+// @downloadURL  https://raw.github.com/airdropbouns/Tabswapdaily/main/tapswapDailytasks.js
+// @updateURL    https://raw.github.com/airdropbouns/Tabswapdaily/main/tapswapDailytasks.js
 // @homepage     https://github.com/airdropbouns/Tabswapdaily/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
-
 (function () {
   function onready(fn) {
     if (document.readyState != "loading") fn();
