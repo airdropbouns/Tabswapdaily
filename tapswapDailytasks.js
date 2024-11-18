@@ -5,7 +5,7 @@
 // @description  Tapswap Daily Task
 // @author       Airdropbouns daily Alert
 // @match        https://app.tapswap.club/*
-// @icon         https://github.com/airdropbouns/Tabswapdaily/main/icon.jpeg
+// @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @grant        GM_webRequest
 // @downloadURL  https://raw.github.com/airdropbouns/Tabswapdaily/main/tapswapDailytasks.js
 // @updateURL    https://raw.github.com/airdropbouns/Tabswapdaily/main/tapswapDailytasks.js
