@@ -1,4 +1,3 @@
-
 // ==UserScript==
 // @name         Tapswap Daily Tasks
 // @namespace    https://t.me/aksfl07
@@ -69,7 +68,7 @@
             question = question.replace("`", "");
             console.log("Question : ---" + question + "---");
             fetch(
-                "https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/list.json"
+                "https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/list.json", {cache: "no-store"}
             ).then(function (response) {
                 response.text().then(function (text) {
                     storedText = text;
@@ -117,8 +116,11 @@
                 console.log("Answer : ---" + answers + "---");
                 setTimeout(function () {
                     const input = document.querySelector('input[type="string"]');
-                    if (input) {
+                    if (input && storedText != "") {
                         input.focus();
+                    }
+                    else {
+                        backbutton.click();
                     }
                 }, 1000);
             }
@@ -144,7 +146,6 @@
             const claimm = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Claim"));
             const startmission = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Start mission"));
             const perror = Array.from(document.querySelectorAll("p")).find((elem) => elem.textContent.includes("Looks like you"));
-            const iaerror = Array.from(document.querySelectorAll('a[class^="_notificationContainer_qgv94_1"]')).find((elem) => elem.style.contains("0px"));
             const tasklistcinema = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Cinema"));
             const tasklistspecial = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Special"));
             const tasklistleagues = Array.from(document.querySelectorAll("button")).find((elem) => elem.textContent.includes("Leagues"));
@@ -156,9 +157,6 @@
             }
             if (perror && check) {
                 check.click();
-                backbutton.click();
-            }
-            if (iaerror) {
                 backbutton.click();
             }
             if (gomission) {
@@ -195,7 +193,7 @@
             if (watchclick && finishmission && !check && !submitt) {
                 watchclick.click();
             }
-            if (watchclick && finishmission && !check && submitt && !perror && !iaerror) {
+            if (watchclick && finishmission && !check && submitt && !perror) {
                 const firstitem = document.querySelectorAll("h3")[0].innerHTML;
                 getanswer(firstitem);
             }
