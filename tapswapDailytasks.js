@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tapswap Daily Tasks
 // @namespace    https://t.me/aksfl07
-// @version      3.0
+// @version      4.0
 // @description  Tapswap Daily Task
 // @author       Airdropbouns daily Alert
 // @match        https://app.tapswap.club/*
