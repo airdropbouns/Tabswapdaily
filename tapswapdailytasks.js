@@ -7,8 +7,8 @@
 // @match        https://app.tapswap.club/*
 // @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @grant        GM_webRequest
-// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapDailytasks.js
-// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapDailytasks.js
+// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
+// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
 // @homepage     https://github.com/airdropbouns/Tabswapdaily/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
