@@ -1,7 +1,7 @@
 
 // ==UserScript==
 // @name         TapSwapDaily web
-// @namespace    https://github.com/sirdropbouns
+// @namespace    https://github.com/airdropbouns
 // @version      2.0
 // @description  Running TapSwap in a browser with random iOS User-Agent
 // @author       Airdropbouns
