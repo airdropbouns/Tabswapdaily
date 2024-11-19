@@ -7,8 +7,8 @@
 // @match        https://app.tapswap.club/*
 // @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @grant        GM_webRequest
-// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
-// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
+// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/main/tapswapdailytasks.js
+// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/main/tapswapdailytasks.js
 // @homepage     https://github.com/airdropbouns/Tabswapdaily/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
@@ -74,7 +74,7 @@ console.error = console.warn = console.info = console.debug = () => { };
       soal = soal.replace("`", "");
       console.log("Shahan Question : ---" + soal + "---");
     fetch(
-  "https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/list.json"
+  "https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/main/list.json"
 ).then(function (response) {
   response.text().then(function (text) {
     storedText = text;
