@@ -1,16 +1,16 @@
 
 // ==UserScript==
 // @name         TapSwapDaily web
-// @namespace    https://github.com/aminiway
+// @namespace    https://github.com/sirdropbouns
 // @version      2.0
 // @description  Running TapSwap in a browser with random iOS User-Agent
 // @author       Airdropbouns
 // @match        *://*.tapswap.*/*
 // @grant        none
 // @icon         https://i.postimg.cc/7LJ24T7F/tapsw-aplogo.png
-// @downloadURL  https://github.com/aminiway/tapswaptask/blob/main/TapswapDaily-web.user.js
-// @updateURL    https://github.com/aminiway/tapswaptask/blob/main/tapswapDaily-web.user.js
-// @homepage     https://github.com/airdropbouns/TapswapDaily
+// @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/Tapswapdaily-web.user.js
+// @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/Tapswapdaily-web.user.js
+// @homepage     https://github.com/airdropbouns/Tabswapdaily
 // ==/UserScript==
 (function() {
     'use strict';
