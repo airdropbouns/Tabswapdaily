@@ -3,7 +3,7 @@
 // @namespace    https://t.me/aksfl07
 // @version      4.0
 // @description  Tapswap Daily Task
-// @author       Airdropbouns daily Alert
+// @author       Airdropbouns
 // @match        https://app.tapswap.club/*
 // @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @grant        GM_webRequest
