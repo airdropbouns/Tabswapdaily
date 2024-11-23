@@ -6,7 +6,7 @@
 // @description  Tapswap Daily Task Claim
 // @author       Airdropbouns
 // @match        https://app.tapswap.club/*
-// @icon         https://raw.githubusercontent.com/airdropbouns/tabswapdaily/refs/heads/main/tapswapdailytasks.js
+// @icon         https://github.com/airdropbouns/Tabswapdaily/blob/main/icon.jpeg
 // @grant        None
 // @downloadURL  https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
 // @updateURL    https://raw.githubusercontent.com/airdropbouns/Tabswapdaily/refs/heads/main/tapswapdailytasks.js
